@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "292142877686",
+    "project_id": "api-rick-morty",
+    "storage_bucket": "api-rick-morty.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292142877686:android:7284a9904f98f27f4d95d7",
+        "android_client_info": {
+          "package_name": "com.example.api_rick_morty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWdm6YcDY0VYWSaq1l4450RduZGs_tocg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
