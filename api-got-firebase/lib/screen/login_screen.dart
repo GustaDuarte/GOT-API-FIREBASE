@@ -50,7 +50,7 @@ class LoginPage extends StatelessWidget {
                   return Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      const Text("Game Of Thrones API", style: TextStyle(fontSize: 25,fontFamily: 'Got')),
+                      const Text("Game Of Thrones API", style: TextStyle(fontSize: 24,fontFamily: 'Got')),
                       const SizedBox(height: 16),
                       TextField(
                           controller: _emailController,
