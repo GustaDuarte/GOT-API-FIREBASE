@@ -1,3 +1,4 @@
+import 'package:api_rick_morty/widgets/character_image.dart';
 import 'package:flutter/material.dart';
 
 import '../models/character.dart';
@@ -13,9 +14,8 @@ class ListaCharacters extends StatelessWidget {
       child: ListView.separated(
           itemBuilder: (context, index) {
             return ListTile(
-              title: Text(lista[index].fullName),
-              leading: Image.network(
-                  lista[index].imageUrl),
+              title: Text(lista[index].fullName, style: TextStyle(fontFamily: 'Got')),
+              leading: CharacterImage(imageUrl: lista[index].imageUrl),
             );
           },
           separatorBuilder: (context, int) {
